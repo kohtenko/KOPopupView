@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		134E31991783EEC9004FE8AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 134E31981783EEC9004FE8AB /* UIKit.framework */; };
+		134E319B1783EEC9004FE8AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 134E319A1783EEC9004FE8AB /* Foundation.framework */; };
+		134E319D1783EEC9004FE8AB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 134E319C1783EEC9004FE8AB /* CoreGraphics.framework */; };
+		134E31A31783EEC9004FE8AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 134E31A11783EEC9004FE8AB /* InfoPlist.strings */; };
+		134E31A51783EEC9004FE8AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 134E31A41783EEC9004FE8AB /* main.m */; };
+		134E31A91783EEC9004FE8AB /* KOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 134E31A81783EEC9004FE8AB /* KOAppDelegate.m */; };
+		134E31AB1783EEC9004FE8AB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 134E31AA1783EEC9004FE8AB /* Default.png */; };
+		134E31AD1783EEC9004FE8AB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 134E31AC1783EEC9004FE8AB /* Default@2x.png */; };
+		134E31AF1783EEC9004FE8AB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 134E31AE1783EEC9004FE8AB /* Default-568h@2x.png */; };
+		134E31B21783EEC9004FE8AB /* KOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 134E31B11783EEC9004FE8AB /* KOViewController.m */; };
+		134E31B51783EEC9004FE8AB /* KOViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 134E31B31783EEC9004FE8AB /* KOViewController_iPhone.xib */; };
+		134E31C11783EF0C004FE8AB /* KOPopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 134E31C01783EF0C004FE8AB /* KOPopupView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		134E31951783EEC9004FE8AB /* KOPopupViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KOPopupViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		134E31981783EEC9004FE8AB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		134E319A1783EEC9004FE8AB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		134E319C1783EEC9004FE8AB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		134E31A01783EEC9004FE8AB /* KOPopupViewExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KOPopupViewExample-Info.plist"; sourceTree = "<group>"; };
+		134E31A21783EEC9004FE8AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		134E31A41783EEC9004FE8AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		134E31A61783EEC9004FE8AB /* KOPopupViewExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KOPopupViewExample-Prefix.pch"; sourceTree = "<group>"; };
+		134E31A71783EEC9004FE8AB /* KOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOAppDelegate.h; sourceTree = "<group>"; };
+		134E31A81783EEC9004FE8AB /* KOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KOAppDelegate.m; sourceTree = "<group>"; };
+		134E31AA1783EEC9004FE8AB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		134E31AC1783EEC9004FE8AB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		134E31AE1783EEC9004FE8AB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		134E31B01783EEC9004FE8AB /* KOViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOViewController.h; sourceTree = "<group>"; };
+		134E31B11783EEC9004FE8AB /* KOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KOViewController.m; sourceTree = "<group>"; };
+		134E31B41783EEC9004FE8AB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/KOViewController_iPhone.xib; sourceTree = "<group>"; };
+		134E31BF1783EF0C004FE8AB /* KOPopupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOPopupView.h; sourceTree = "<group>"; };
+		134E31C01783EF0C004FE8AB /* KOPopupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOPopupView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		134E31921783EEC9004FE8AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				134E31991783EEC9004FE8AB /* UIKit.framework in Frameworks */,
+				134E319B1783EEC9004FE8AB /* Foundation.framework in Frameworks */,
+				134E319D1783EEC9004FE8AB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		134E318C1783EEC9004FE8AB = {
+			isa = PBXGroup;
+			children = (
+				134E319E1783EEC9004FE8AB /* KOPopupViewExample */,
+				134E31971783EEC9004FE8AB /* Frameworks */,
+				134E31961783EEC9004FE8AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		134E31961783EEC9004FE8AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				134E31951783EEC9004FE8AB /* KOPopupViewExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		134E31971783EEC9004FE8AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				134E31981783EEC9004FE8AB /* UIKit.framework */,
+				134E319A1783EEC9004FE8AB /* Foundation.framework */,
+				134E319C1783EEC9004FE8AB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		134E319E1783EEC9004FE8AB /* KOPopupViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				134E31BE1783EEF9004FE8AB /* KOPopupView */,
+				134E31A71783EEC9004FE8AB /* KOAppDelegate.h */,
+				134E31A81783EEC9004FE8AB /* KOAppDelegate.m */,
+				134E31B01783EEC9004FE8AB /* KOViewController.h */,
+				134E31B11783EEC9004FE8AB /* KOViewController.m */,
+				134E31B31783EEC9004FE8AB /* KOViewController_iPhone.xib */,
+				134E319F1783EEC9004FE8AB /* Supporting Files */,
+			);
+			path = KOPopupViewExample;
+			sourceTree = "<group>";
+		};
+		134E319F1783EEC9004FE8AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				134E31A01783EEC9004FE8AB /* KOPopupViewExample-Info.plist */,
+				134E31A11783EEC9004FE8AB /* InfoPlist.strings */,
+				134E31A41783EEC9004FE8AB /* main.m */,
+				134E31A61783EEC9004FE8AB /* KOPopupViewExample-Prefix.pch */,
+				134E31AA1783EEC9004FE8AB /* Default.png */,
+				134E31AC1783EEC9004FE8AB /* Default@2x.png */,
+				134E31AE1783EEC9004FE8AB /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		134E31BE1783EEF9004FE8AB /* KOPopupView */ = {
+			isa = PBXGroup;
+			children = (
+				134E31BF1783EF0C004FE8AB /* KOPopupView.h */,
+				134E31C01783EF0C004FE8AB /* KOPopupView.m */,
+			);
+			path = KOPopupView;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		134E31941783EEC9004FE8AB /* KOPopupViewExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 134E31BB1783EEC9004FE8AB /* Build configuration list for PBXNativeTarget "KOPopupViewExample" */;
+			buildPhases = (
+				134E31911783EEC9004FE8AB /* Sources */,
+				134E31921783EEC9004FE8AB /* Frameworks */,
+				134E31931783EEC9004FE8AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KOPopupViewExample;
+			productName = KOPopupViewExample;
+			productReference = 134E31951783EEC9004FE8AB /* KOPopupViewExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		134E318D1783EEC9004FE8AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KO;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Kohtenko;
+			};
+			buildConfigurationList = 134E31901783EEC9004FE8AB /* Build configuration list for PBXProject "KOPopupViewExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 134E318C1783EEC9004FE8AB;
+			productRefGroup = 134E31961783EEC9004FE8AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				134E31941783EEC9004FE8AB /* KOPopupViewExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		134E31931783EEC9004FE8AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				134E31A31783EEC9004FE8AB /* InfoPlist.strings in Resources */,
+				134E31AB1783EEC9004FE8AB /* Default.png in Resources */,
+				134E31AD1783EEC9004FE8AB /* Default@2x.png in Resources */,
+				134E31AF1783EEC9004FE8AB /* Default-568h@2x.png in Resources */,
+				134E31B51783EEC9004FE8AB /* KOViewController_iPhone.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		134E31911783EEC9004FE8AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				134E31A51783EEC9004FE8AB /* main.m in Sources */,
+				134E31A91783EEC9004FE8AB /* KOAppDelegate.m in Sources */,
+				134E31B21783EEC9004FE8AB /* KOViewController.m in Sources */,
+				134E31C11783EF0C004FE8AB /* KOPopupView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		134E31A11783EEC9004FE8AB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				134E31A21783EEC9004FE8AB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		134E31B31783EEC9004FE8AB /* KOViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				134E31B41783EEC9004FE8AB /* en */,
+			);
+			name = KOViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		134E31B91783EEC9004FE8AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		134E31BA1783EEC9004FE8AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		134E31BC1783EEC9004FE8AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KOPopupViewExample/KOPopupViewExample-Prefix.pch";
+				INFOPLIST_FILE = "KOPopupViewExample/KOPopupViewExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		134E31BD1783EEC9004FE8AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KOPopupViewExample/KOPopupViewExample-Prefix.pch";
+				INFOPLIST_FILE = "KOPopupViewExample/KOPopupViewExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		134E31901783EEC9004FE8AB /* Build configuration list for PBXProject "KOPopupViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				134E31B91783EEC9004FE8AB /* Debug */,
+				134E31BA1783EEC9004FE8AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		134E31BB1783EEC9004FE8AB /* Build configuration list for PBXNativeTarget "KOPopupViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				134E31BC1783EEC9004FE8AB /* Debug */,
+				134E31BD1783EEC9004FE8AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 134E318D1783EEC9004FE8AB /* Project object */;
+}
