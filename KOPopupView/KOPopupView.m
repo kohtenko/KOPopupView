@@ -55,7 +55,11 @@ static float const ROOT_VIEW_SCALE_FACTOR = 0.9;
 
 - (void)show{
     UIWindow *keyWindow = [[UIApplication sharedApplication] keyWindow];
-    UIView *rootView = keyWindow.rootViewController.view;
+    UIViewController *ctrl = keyWindow.rootViewController;
+    while (ctrl.presentedViewController) {
+        ctrl = ctrl.presentedViewController;
+    }
+    UIView *rootView = ctrl.view;
     
     CGRect rect = CGRectMake(0, 0, rootView.frame.size.width, rootView.frame.size.height);
     if(rootView.transform.b != 0 && rootView.transform.c != 0)
@@ -68,7 +72,11 @@ static float const ROOT_VIEW_SCALE_FACTOR = 0.9;
 
 - (void)showInNextRunLoop{
     UIWindow *keyWindow = [[UIApplication sharedApplication] keyWindow];
-    UIView *rootView = keyWindow.rootViewController.view;
+    UIViewController *ctrl = keyWindow.rootViewController;
+    while (ctrl.presentedViewController) {
+        ctrl = ctrl.presentedViewController;
+    }
+    UIView *rootView = ctrl.view;
     
     UIImage *rootViewRenderImage = [self imageWithView:rootView];
     self.renderImageView.image = rootViewRenderImage;
