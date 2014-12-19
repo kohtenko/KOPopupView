@@ -24,5 +24,5 @@ Pod::Spec.new do |s|
   s.source_files = 'KOPopupView'
 
   # s.public_header_files = 'KOPopupView/KOPopupView.h'
-  # s.frameworks = 'QuartzCore'
+  s.frameworks = 'QuartzCore'
 end
