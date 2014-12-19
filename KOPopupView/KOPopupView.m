@@ -21,6 +21,10 @@ static float const ROOT_VIEW_SCALE_FACTOR = 0.9;
 
 @implementation KOPopupView
 
+- (instancetype)init{
+    return [KOPopupView popupView];
+}
+
 + (KOPopupView *)popupView{
     UIWindow *keyWindow = [[UIApplication sharedApplication] keyWindow];
     UIView *rootView = keyWindow.rootViewController.view;
